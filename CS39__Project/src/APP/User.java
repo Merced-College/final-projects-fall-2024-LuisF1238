@@ -1,10 +1,10 @@
 package APP;
 
 public class User {
-    private final String name; // User's name
-    private final int age; // User's age
-    private final double weight; // User's weight
-    private final double dailyCalorieGoal; // User's Daily Calorie goal
+    private String name; // User's name
+    private int age; // User's age
+    private double weight; // User's weight
+    private double dailyCalorieGoal; // User's Daily Calorie goal
 
     //User Profile Constructor
     public User(String name, int age, double weight, double dailyCalorieGoal) {
@@ -22,5 +22,28 @@ public class User {
     // User CalorieGoal Getter
     public double getDailyCalorieGoal() {
         return dailyCalorieGoal;
+    }
+
+    // User Name Setter
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // User Age Setter
+    public void setAge(int age) {
+        this.age = age;
+
+    }
+
+    // User Weight Setter
+    public void setWeight(double weight) {
+        this.weight = weight;
+
+    }
+
+    // User CalorieGoal Setter
+    public void setDailyCalorieGoal(double dailyCalorieGoal) {
+        this.dailyCalorieGoal = dailyCalorieGoal;
+
     }
 }

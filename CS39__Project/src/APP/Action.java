@@ -10,6 +10,7 @@ public class Action {
         this.type = type;
         this.item = item;
     }
+
     // String Getter
     public String getType() {
         return type;
